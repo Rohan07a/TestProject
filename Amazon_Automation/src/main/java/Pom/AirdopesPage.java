@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AirdopesPage {
 
-	System.out.println("Hi");
+
 	@FindBy(xpath=("(//span[contains(text(),'boAt Airdopes 121v2 True Wireless Earbuds with Upto 14 Hours')])[3]"))
 	private WebElement boatAirdopes;
 	
